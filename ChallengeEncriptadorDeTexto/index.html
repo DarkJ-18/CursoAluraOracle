@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador de texto</title>
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="headerImg">
+                <img src="./img/logo.svg" alt="Logo de Alura">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="encriptador">
+                <form class="encriptadorForm">
+                    <div class="textIn">
+                        <textarea name="textInArea" id="texto" placeholder="Ingrese el texto aqui" required></textarea>
+                        <div class="textInInfo">
+                            <div class="info">
+                                <img src="./img/exclamacion.svg" alt="">
+                                <p id="warning">Solo letras minúsculas y sin acentos</p>
+                            </div>
+                            <div class="textInBtns">
+                                <input id="enc" type="button" value="Encriptar">
+                                <input id="des" type="button" value="Desencriptar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="textOutSec">
+                    <div class="outContent">
+                        <div class="content" id="default">
+                            <div class="textOutImg">
+                                <img src="./img/muneco.svg" alt="Imagen de animada">
+                            </div>
+                            <p>No se encontro ningun mensaje</p>
+                            <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                        </div>
+                        <div class="content invisible" id="result">
+                            <textarea name="textOutArea" id="texto_out" disabled></textarea>
+                            <button id="copiar">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="pie-pagina">
+        <p>@ 2024 Todos los derechos reservador por Juan Camilo Gallego | Oracle+AluraLatam.</p>
+        <a href="https://github.com/DarkJ-18"><img src="./img/github-original.svg" class="svg" alt="icono GitHub"></a>
+        <a href="https://linkedin.com/in/darkj22"><img src="./img/linkedin-original.svg" class="svg" alt="icono Linkedin"></a>
+        <img width="12" />
+    </footer>
+    <script src="./js/encriptador.js"></script>
+</body>
+
+</html>
