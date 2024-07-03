@@ -47,7 +47,8 @@ body{
 }
 
 main{
-    height: 95%;
+    margin-top: 10px;
+    height: 90%;
 }
 
 .encriptador{
