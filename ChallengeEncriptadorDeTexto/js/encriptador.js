@@ -31,3 +31,8 @@ function encriptar(traduccion) {
 }
 const traduccion = {"a": "ai", "e": "enter", "i": "imes", "o": "ober", "u": "ufat"};
 const enc = document.querySelector('#enc');
+
+
+enc.addEventListener( 'click', function() {encriptar(traduccion);} );
+des.addEventListener( 'click', function() {desencriptar(traduccion);} );
+copy.addEventListener( 'click', function() {clipboard();} );
