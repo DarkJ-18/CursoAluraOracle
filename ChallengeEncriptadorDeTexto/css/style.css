@@ -262,7 +262,7 @@ main{
     border: none;
 }
 
-#copiar{
+#copy{
     height: 67px;
     margin-top: 32px;
     background-color: #8c6598;
@@ -277,11 +277,11 @@ main{
     transition: transform 0.2s; 
 }
 
-#copiar:hover{
+#copy:hover{
     transform: scale(1.05);
 }
 
-#copiar:last-child:active{
+#copy:last-child:active{
     color: #FFF;
     background-color: #5f496d;
 }
